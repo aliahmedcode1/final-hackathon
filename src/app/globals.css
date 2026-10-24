@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: oklch(0.145 0 0);
+  --color-surface-2: oklch(0.19 0 0);
+  --color-brand: oklch(0.585 0.233 277.117);
+}
+
+html,
+body {
+  background: var(--color-zinc-950);
+  color: var(--color-zinc-100);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-zinc-700) transparent;
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
